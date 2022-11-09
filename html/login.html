@@ -28,25 +28,23 @@
                     var today = new Date();
                     var hourNow = today.getHours();
                     var greeting;
-                    if (hourNow > 18 && hourNow < 21) 
-                    {
-                        greeting = 'Hello!<br>Good Evening';
-                    } 
-                    else if (hourNow > 21 && hourNow < 6) 
-                    {
-                        greeting = 'Hello!<br>Good Night';
-                    } 
-                    else if (hourNow > 12) 
-                    {
-                        greeting = 'Hello!<br>Good Afternoon';
-                    } 
-                    else if (hourNow > 6 && hourNow < 12) 
+                    if (hourNow >= 6 && hourNow < 12) 
                     {
                         greeting = 'Hello!<br>Good Morning';
                     }
-                    else {
-                        greeting = 'Welcome!';
+                    else if (hourNow >= 12 && hourNow < 18) 
+                    {
+                        greeting = 'Hello!<br>Good Afternoon';
+                    } 
+                    if (hourNow >= 18 && hourNow < 21) 
+                    {
+                        greeting = 'Hello!<br>Good Evening';
+                    } 
+                    else if (hourNow >= 21 && hourNow < 24) 
+                    {
+                        greeting = 'Hello!<br>Good Night';
                     }
+
                     document.write('<h1 style="color: rgb(152, 198, 189); text-align: left; font-size: 30px; font-family:Poppins-Bold;">' + greeting + '</h1>');
                 </script>
             </span>
