@@ -169,6 +169,7 @@ body {
     margin-top: 25px;
     margin-bottom: 50px;
     width: 280px;
+    outline: none;
 }
 
 #enter-email, #enter-password {
@@ -187,6 +188,7 @@ body {
     text-align: left;
     margin-top: 5px;
     width: 280px;
+    outline: none;
 }
 
 #lostpassword {
@@ -222,6 +224,7 @@ background-size: 200% auto;
 color: white;
 box-shadow: 0 0 20px #eee;
 border-radius: 15px;
+cursor: pointer;
 }
 
 .btn:hover {
