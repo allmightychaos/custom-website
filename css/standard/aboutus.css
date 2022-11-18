@@ -1,0 +1,48 @@
+@font-face {
+font-family: Poppins-Regular;
+src: url('../fonts/poppins/Poppins-Regular.ttf'); 
+}
+
+@font-face {
+font-family: Poppins-Medium;
+src: url('../fonts/poppins/Poppins-Medium.ttf'); 
+}
+
+@font-face {
+font-family: Poppins-Bold;
+src: url('../fonts/poppins/Poppins-Bold.ttf'); 
+}
+
+@font-face {
+font-family: Poppins-SemiBold;
+src: url('../fonts/poppins/Poppins-SemiBold.ttf'); 
+}
+
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background: #ffffff;
+}
+
+#dark-mode-toggle {
+    margin-right: 25px;
+    --dark-mode-toggle-light-icon: url("../images/whitemode.svg");
+    --dark-mode-toggle-dark-icon: url("../images/darkmode.svg");
+}
+
+.container {
+    background: rgb(36, 38, 50);
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    padding: 40px;
+    font-size: 25px;
+}
+
+@media screen and (max-width: 50%) {
+    .header a {
+        display: none;
+    }
+    
+}
