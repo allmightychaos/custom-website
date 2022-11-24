@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cookie-container {
+    background: linear-gradient(260deg, #9b6c50, hsl(0, 35%, 23%));
+    justify-content: space-between;
+    border-radius: 1.2rem;
+    align-items: center;
+    position: fixed;
+    overflow: hidden;
+    color: white;
+    display: flex;
+    height: 10rem;
+    width: 22rem;
+    bottom: 0;
+    right: 0;
+}
+
+.cookie {
+    transform: scale(2.5);
+    padding-right: 2rem;
+    padding-left: 2rem;
+    margin-left: 1rem;
+    margin-right: 0.5rem;
+    overflow: visible;
+}
+
+.cookie-title {
+    font-family: 'Poppins', sans-serif;
+    color: #FFD796;
+    font-size: 1.5rem;
+}
+
+.cookie-subtitle {
+    font-family: 'Montserrat', sans-serif;
+    padding: 0.5rem 0rem;
+    font-size: 0.8rem;
+}
+
+.cookie-title, .cookie-subtitle, button {
+    margin-left: 1rem;
+}
+
+button {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #b16b49;
+    border-radius: 0.6rem;
+    padding: 0.5rem 1rem;
+    margin-top: 0.6rem;
+    border-style: none;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #ffe1b0; 
+    width: 10rem;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #965a3e;
+}

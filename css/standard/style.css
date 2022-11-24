@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background: #ffffff;
+}
+
+.homepagediv {
+    display: inline;
+    width: 100vh;
+    margin-right: 0px;
+}
+
+.container {
+    height: 100vh;
+    overflow: hidden;
+    left: 50;
+    background: rgb(32, 36, 50);
+}
+
+.container2 {
+    height: 100vh;
+    overflow: hidden;
+    left: 0;
+    background: rgb(202, 202, 202);
+}
+
+.item-box {
+    box-shadow:  0 5px 10px 0px rgba(0, 0, 0, 0.4);
+    transform: translate(-50%, -50%);
+    background-attachment: scroll;
+    box-sizing: border-box;
+    background: rgb(40, 40, 40);
+    border-radius: 15px;
+    padding-top: 25px;
+    padding-bottom: 33px;
+    padding-left: 55px;
+    padding-right: 55px;
+    position: absolute;
+    color: rgb(51, 51, 51);
+    justify-items: center;
+    text-align: center;
+    height: 580px;
+    width: 550px;
+    margin-left: 21rem;
+    margin-top: 3rem;
+    top: 50vh;
+}
+
+.order {
+    display: flex;
+    margin-top: 30rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    width: 450px;
+}
+
+.btn {
+    flex: 1 1 auto;
+    padding: 5px;
+    transition: 0.3s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: rgb(60, 62, 62);
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+.button-order {
+    font-size: 25px;
+    background-color: #02a169;
+}
+
+.button-order:hover {
+    background-color: #01784e;
+    color: rgb(215, 215, 215);
+}
+
+.button-order span {
+    padding-top: 10vh;
+}
+
+#ordernow {
+    vertical-align: middle;
+}
+
+.button-order:before {
+    content: "";
+    background: url(/images/add-to-cart.svg);
+    background-size: cover;
+    width: 43px;
+    height: 35px;
+    vertical-align: middle;
+}
+
